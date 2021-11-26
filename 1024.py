@@ -182,8 +182,8 @@ class Autoreply:
     @staticmethod
     def getreply():
         #自定义回复内容，记得修改随机数
-        reply=['感谢分享','感谢分享，支持发帖','谢谢分享','多谢分享','有意思','支持楼主一下！！','谢谢大佬分享','感谢分享 支持一下','感谢分享，涨见识了','谢谢楼主分享','1024']
-        reply_m=random.randint(0,10)
+        reply=['感谢分享','感谢分享，支持发帖','谢谢分享','多谢分享','1024','支持楼主一下！！','谢谢大佬分享','1024','感谢分享 支持一下','感谢分享，涨见识了','谢谢楼主分享','1024']
+        reply_m=random.randint(0,11)
         reply_news=reply[reply_m]
         print('本次回复消息是:'+reply_news)
         reply_news=reply_news.encode('gb18030')
